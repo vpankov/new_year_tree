@@ -1,0 +1,236 @@
+/*BEGIN DECORATIONS*/
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background: url(img/bg.jpg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.newYearTree__snowMan {
+    position: absolute;
+    width: 178px;
+    bottom: 0;
+    left: 0;
+}
+
+.newYearTree__snowMan img {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.newYearTree__deer {
+    position: absolute;
+    width: 162px;
+    bottom: 0;
+    right: 0px;
+}
+
+.newYearTree__deer img {
+    width: 100%;
+}
+/*END DECORATIONS*/
+/*BEGIN LIGHT ANIMATION*/
+.newYearTree {
+    height: 940px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 700px;
+}
+
+.newYearTree__tree {
+    height: 660px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+    background: url(img/tree.png);
+    background-size: contain;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+
+.newYearTree__tree .light .item {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    box-shadow: 0 0 8px 10px rgb(205, 147, 34);
+    animation: treeLight 2000ms linear 1000ms infinite;
+}
+
+.newYearTree__tree .star {
+    position: absolute;
+    top: 4%;
+    left: 48%;
+    width: 2px;
+    height: 1px;
+    border-radius: 50%;
+    box-shadow: 0 0 33px 53px rgb(239, 135, 23);
+    animation: star 2s linear 200ms infinite;
+}
+
+.newYearTree__tree .light-1 .item {
+    animation-duration: 2000ms;
+    animation-delay: 1000ms;
+    box-shadow: 0 0 3px 20px #cd9322;
+    background: #cd9322;
+}
+
+.newYearTree__tree .light-1 .item:nth-child(1) {
+    bottom: 10%;
+    left: 68%;
+}
+
+.newYearTree__tree .light-1 .item:nth-child(2) {
+    bottom: 22%;
+    left: 31%;
+}
+
+.newYearTree__tree .light-1 .item:nth-child(3) {
+    bottom: 36%;
+    left: 61%;
+}
+
+.newYearTree__tree .light-1 .item:nth-child(4) {
+    bottom: 65%;
+    left: 41%;
+}
+
+.newYearTree__tree .light-1 .item:nth-child(5) {
+    bottom: 5%;
+    left: 43%;
+}
+
+.newYearTree__tree .light-2 .item {
+    animation-duration: 2000ms;
+    animation-delay: 0ms;
+    box-shadow: 0 0 3px 20px white;
+    background: white;
+}
+
+.newYearTree__tree .light-2 .item:nth-child(1) {
+    bottom: 18%;
+    left: 44%;
+}
+
+.newYearTree__tree .light-2 .item:nth-child(2) {
+    bottom: 78%;
+    left: 43%;
+}
+
+.newYearTree__tree .light-2 .item:nth-child(3) {
+    bottom: 44%;
+    left: 37%;
+}
+
+.newYearTree__tree .light-2 .item:nth-child(4) {
+    bottom: 58%;
+    left: 54%;
+}
+
+.newYearTree__tree .light-2 .item:nth-child(5) {
+    bottom: 22%;
+    left: 63%;
+}
+
+.newYearTree__tree .light-3 .item {
+    animation-duration: 2000ms;
+    animation-delay: 1500ms;
+    box-shadow: 0 0 3px 20px #cd9322;
+    background: #cd9322;
+}
+
+.newYearTree__tree .light-3 .item:nth-child(1) {
+    bottom: 71%;
+    left: 54%;
+}
+
+.newYearTree__tree .light-3 .item:nth-child(2) {
+    bottom: 45%;
+    left: 49%;
+}
+
+.newYearTree__tree .light-3 .item:nth-child(3) {
+    bottom: 31%;
+    left: 40%;
+}
+
+.newYearTree__tree .light-3 .item:nth-child(4) {
+    bottom: 48%;
+    left: 62%;
+}
+
+.newYearTree__tree .light-3 .item:nth-child(5) {
+    bottom: 24%;
+    left: 54%;
+}
+
+.newYearTree__tree .light-4 .item {
+    animation-duration: 2200ms;
+    animation-delay: 300ms;
+    box-shadow: 0 0 3px 20px white;
+    background: white;
+}
+
+.newYearTree__tree .light-4 .item:nth-child(1) {
+    bottom: 4%;
+    left: 27%;
+}
+
+.newYearTree__tree .light-4 .item:nth-child(2) {
+    bottom: 34%;
+    left: 49%;
+}
+
+.newYearTree__tree .light-4 .item:nth-child(3) {
+    bottom: 4%;
+    left: 57%;
+}
+
+.newYearTree__tree .light-4 .item:nth-child(4) {
+    bottom: 56%;
+    left: 39%;
+}
+
+.newYearTree__tree .light-4 .item:nth-child(5) {
+    bottom: 83%;
+    left: 53%;
+}
+
+@keyframes star {
+    from {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes treeLight {
+    from {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+/*END LIGHT ANIMATION*/
